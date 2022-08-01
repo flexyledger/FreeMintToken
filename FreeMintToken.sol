@@ -7,8 +7,8 @@ import "erc721a/contracts/ERC721A.sol";
 
 contract FreeMintToken is ERC721A {
 
-    uint256 public constant USER_LIMIT = 10;
-    uint256 public constant MAX_SUPPLY = 10_000;
+    uint256 public constant USER_LIMIT = 20;
+    uint256 public constant MAX_SUPPLY = 20_000;
 
     constructor() ERC721A("FreeMintToken", "FTM") {}
 
